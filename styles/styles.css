@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Freehand";
+    src: url(../fonts/Freehand\ Regular.woff);
+}
+
+.principal {
+    background-image: url(../img/fondo1.JPG), url(../img/fondo2.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: 100%;
+}
+
+.barra {
+    opacity: 0.6;
+}
+
+.navegador {
+    font-size: 30px;
+    font-family: "Freehand";
+    text-decoration: bold;
+}
+
+.txt {
+    opacity: 1;
+}
+
+.texto-central {
+    color: rgb(19, 17, 17);
+    font-family: "Freehand";
+    font-size: 35px;
+}
