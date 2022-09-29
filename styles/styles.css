@@ -4,8 +4,7 @@
 }
 
 .principal {
-    background-image: url(../img/fondo1.JPG), url(../img/fondo2.jpg);
-    background-repeat: no-repeat, repeat;
+    background-image: url(../img/background.png);
     background-size: 100%;
 }
 
@@ -17,6 +16,7 @@
     font-size: 30px;
     font-family: "Freehand";
     text-decoration: bold;
+    color: black;
 }
 
 .txt {
