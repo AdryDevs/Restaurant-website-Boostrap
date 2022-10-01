@@ -16,10 +16,11 @@
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
     ></script>
-    <link rel="icon" type="image/x-icon" href="./img/moustache.png" />
+    <link rel="icon" type="image/x-icon" href="../img/moustache.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:wght@200;300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles/carta.css">
     <title>Restaurante Florazar</title>
   </head>
   <body>
@@ -28,7 +29,7 @@
 
       <div class="row sticky-top">
         <div id="logo" class="col d-flex justify-content-center ">
-          <img src="../img/logo_nuevo2.jpg" alt="" />
+          <img src="../img/logo_nuevo2.jpg" alt="logo_florazar" />
         </div>
       </div>
 
@@ -61,4 +62,80 @@
           </div>
         </nav>
       </div>
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+          <!--Contacto-->
+          <section class="mb-4">
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contacte con nosotros</h2>
+            <div class="row">
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Su nombre</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Su correo electrónico</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Asunto</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                    <label for="message">Su mensaje</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                            <p>Calle Águila <br>CP: 46400 <br>Cullera</p>
+                        </li>
+                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                            <p>96 - 172 31 26</p>
+                        </li>
+                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                            <p>florazar@restauranteflorazar.com</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <!--Google maps-->
+      <div class="row p-5">
+        <div class="col-2"></div>
+        <div class="col-8">
+          <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 800px">
+            <iframe src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+              style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-2"></div>
+      </div>
     </div>
+  </body>
+</html>
