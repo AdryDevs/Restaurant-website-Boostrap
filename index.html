@@ -1,132 +1,165 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/x-icon" href="./img/moustache.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/x-icon" href="./img/moustache.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:wght@200;300&display=swap" rel="stylesheet">
     <title>Restaurante Florazar</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container-fluid principal">
-    
-        <!-- Header -->
+      <!-- Header -->
 
-        <div class="row">
-            <header>
-                <img style="width: 100%;" src="./img/logo_modified.jpg" alt="logo_florazar">
-            </header>
+      <div class="row sticky-top">
+        <div id="logo" class="col d-flex justify-content-center ">
+          <img class="img-fluid" src="./img/logo_nuevo2.jpg" alt="" />
         </div>
+      </div>
 
-        <!-- Navbar -->
+      <!-- Navbar -->
 
-        <div class="row">
-            <nav class="navbar navbar-expand-lg bg-light barra">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#"></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav navegador">
-                      <a class="nav-link active p-3" aria-current="page" href="#">Home</a>
-                      <a class="nav-link p-3" href="./pages/NuestraCarta.html">Nuestra carta</a>
-                      <a class="nav-link p-3" href="./pages/Contacto.html">Contacto y reservas</a>
-                    </div>
-                  </div>
-                </div>
-              </nav>
+      <div class="row">
+        <nav class="navbar navbar-expand-lg  barra">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="p-3 navegador" aria-current="page" href="#">Home</a>
+                <a class="p-3 navegador" href="./pages/NuestraCarta.html"
+                  >Nuestra carta</a
+                >
+                <a class="p-3 navegador" href="./pages/Contacto.html"
+                  >Contacto y reservas</a
+                >
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Body -->
+      <div class="row">
+        <div class="col-4 text-center pt-4 midd-top-left">
+          <div class="midd-top-left-txt">
+            <span
+              ><h1>Nuestra historia</h1>
+              <br />
+              <h5>Próximos a nuestros clientes</h5>
+              <br />Restaurante Florazar abre sus puertas, con esta
+              gerencia, en 1988 con un ambiente selecto y de trato familiar.<br />
+              Local cuidado en constante renovación. Ofrece dos salones
+              independientes con capacidad para 36 y 30 comensales.<br />
+              "Años de experiencia, dedicación y formación, junto a la calidad
+              del producto y una esmerada elaboración, es el resultado de este
+              restaurante que solo pretende que el comensal disfrute."<br /></span>
+            <span class="firma">Rafa y Ángeles</span>
+          </div>
         </div>
-
-        <!-- Body -->
-        
-        <div class="row p-5">
-            <div class="col p-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/platos/1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Título del plato</h5>
-                      <p class="card-text">Breve descripción e ingredientes del plato.</p>
-                    </div>
-                  </div>
-                </div>
-            <div class="col p-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/platos/2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Título del plato</h5>
-                      <p class="card-text">Breve descripción e ingredientes del plato.</p>
-                    </div>
-                  </div>
+        <div class="col-8 midd-top-right">
+          <div
+            id="carouselExampleInterval"
+            class="carousel slide"
+            data-bs-ride="carousel">
+            <div class="carousel-inner img-fluid">
+              <div class="carousel-item active" data-bs-interval="4000">
+                <img
+                  src="./img/top-midd-right1.jpg"
+                  class="d-block w-100"
+                  alt="..."/>
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img
+                  src="./img/top-midd-right2.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img
+                  src="./img/top-midd-right3.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
             </div>
-            <div class="col p-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/platos/3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Título del plato</h5>
-                      <p class="card-text">Breve descripción e ingredientes del plato.</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col p-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/platos/4.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Título del plato</h5>
-                      <p class="card-text">Breve descripción e ingredientes del plato.</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col p-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/platos/5.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Título del plato</h5>
-                      <p class="card-text">Breve descripción e ingredientes del plato.</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col p-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/platos/6.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Título del plato</h5>
-                      <p class="card-text">Breve descripción e ingredientes del plato.</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col p-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/platos/7.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Título del plato</h5>
-                      <p class="card-text">Breve descripción e ingredientes del plato.</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col p-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/platos/8.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Título del plato</h5>
-                      <p class="card-text">Breve descripción e ingredientes del plato.</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col p-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/platos/9.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Título del plato</h5>
-                      <p class="card-text">Breve descripción e ingredientes del plato.</p>
-                    </div>
-                  </div>
-            </div>
-        
-
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row bg-black">
+        <div class="col midd-bot-left p-5">
+          <img class="paella rounded mx-auto d-block" src="./img/bot-left.jpg" alt="arroz">
+        </div>
+        <div class="col text-center p-4 midd-bot-right">
+          <span><h1>Nuestra Cocina</h1><br>
+          <h5>Cocina Mediterranea</h5><br>
+          Cocina mediterranea cuidada y elaborada, ofrecemos un amplio
+          abanico de arroces tanto en paellas como en melosos,
+          sin olvidar el arroz al horno.<br>          
+          Buscamos siempre productos de mercado de primera calidad:          
+          Merluza de pincho del cantabrico, clochinas valencianas en temporada,         
+           bacalao, foie en varias versiones...  <br>       
+          Ademas de su amplia carta, tenemos las sugerencias que se ofrecen todos los días,        
+           según mercado y temporada: Ventresca de atún, confite de pato, caza y setas...<br>       
+          Mencionar la pizza con masa fina y crujiente, que es un complemento excepcional en esta casa.<br>     
+          Los postres y helados minuciosamente elaborados, son el colafón de una buena comida.</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img class="postre" src="./img/bot.jpg" alt="">
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

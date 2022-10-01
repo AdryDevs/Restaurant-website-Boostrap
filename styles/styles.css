@@ -3,28 +3,43 @@
     src: url(../fonts/Freehand\ Regular.woff);
 }
 
-.principal {
-    background-image: url(../img/background.png);
-    background-size: 100%;
-}
-
-.barra {
-    opacity: 0.6;
+#logo {
+    background-color: white;
 }
 
 .navegador {
-    font-size: 30px;
-    font-family: "Freehand";
-    text-decoration: bold;
-    color: black;
-}
-
-.txt {
-    opacity: 1;
-}
-
-.texto-central {
-    color: rgb(19, 17, 17);
-    font-family: "Freehand";
     font-size: 35px;
+    font-family: "Freehand";
+    text-decoration: none;
+    text-decoration: bold;
+    color: rgb(0, 0, 0);
+}
+
+.midd-top-left {
+    font-family: 'Raleway', sans-serif;
+    background-color: #efece2;
+    font-size: 18px;
+}
+
+.midd-top-right {
+    background-color: #efece2;
+}
+
+.firma {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.midd-bot-right {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.paella {
+    width: 110%;
+}
+
+.postre {
+    width: 100%;;
 }
