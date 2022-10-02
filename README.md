@@ -11,15 +11,15 @@ Se trata de una página web de un restaurante que contiene 3 hyperlinks con los 
 
 La primera página sería el index o home:
 
-<img src="../material/Screenshot_1.png" alt="sshot1">
+<img src="img/Screenshot_1.png" alt="sshot1">
 
 Luego entramos en una carta sencilla y de diseño moderno:
 
-<img src="../material/Screenshot_2.png" alt="sshot2">
+<img src="img/Screenshot_2.png" alt="sshot2">
 
 Y por último una página de contacto simple con un maps abajo con la localización del restaurante:
 
-<img src="../material/Screenshot_3.png" alt="sshot1">
+<img src="img/Screenshot_3.png" alt="sshot1">
 
 
 
