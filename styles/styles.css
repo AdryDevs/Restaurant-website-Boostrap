@@ -1,17 +1,11 @@
-@font-face {
-    font-family: "Freehand";
-    src: url(../fonts/Freehand\ Regular.woff);
-}
-
 #logo {
     background-color: white;
 }
 
 .navegador {
-    font-size: 35px;
-    font-family: "Freehand";
+    font-size: 25px;
+    font-family: 'Freehand Script', sans-serif;
     text-decoration: none;
-    text-decoration: bold;
     color: rgb(0, 0, 0);
 }
 
